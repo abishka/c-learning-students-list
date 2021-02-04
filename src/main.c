@@ -38,14 +38,14 @@ int main()
 
 
 
-	stpcpy(st[1].studentNumber,"89031037");
+	stpcpy(st[1].studentNumber,"123456789A");
 	stpcpy(st[1].firstName,"ata");
 	stpcpy(st[1].lastName,"babaei");
 	st[1].avr=15.5;
 
 	stpcpy(st[2].studentNumber,"99999999");
-	stpcpy(st[2].firstName,"rahim");
-	stpcpy(st[2].lastName,"tarighat");
+	stpcpy(st[2].firstName,"Ali");
+	stpcpy(st[2].lastName,"rahimi");
 	st[2].avr=19;
 
 
