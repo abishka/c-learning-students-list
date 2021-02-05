@@ -1,3 +1,10 @@
+/**
+ * Author:    ata babaei   ata.abishka@gmail.com
+ * Created:   02.05.2021
+ * 
+ * maktabkhoone c learneang prject
+ * master:  mr anvari 
+ **/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,11 +46,15 @@ int main()
 	puts("########################  full screan your terminal  #####################");
 	puts("##########################################################################");
 
-	/*puts("salam ba arz khaste nabashid , va manoon az amoozesh ha");
-	puts("ostad anvari , in proje ru tu github uplode kardam , man kolan tu github ham ebtedayii am \n
-	, bara behboode proje va ravesh haye sahihe barname nevisi , mosharekat konid mamnoon misham");
-	puts("agarma nabayad upload mikardam begid hazfesh konm . mamnoon ");
-*/
+	puts("salam ,ba arz khaste nabashid , va manoon az amoozesh ha");
+	puts("ostad anvari , in proje ru tu github uplode kardam ");
+	puts("man kolan tu github ham ebtedayii am ");
+	puts("bara behboode proje va ravesh haye sahihe barname nevisi , mosharekat konid mamnoon misham");
+	puts("agar ham  nabayad upload mikardam begid hazfesh konm . mamnoon ");
+	puts("https://github.com/abishka/c-learning-students-list \n");
+	puts("ata.abishka@gmail.com \n");
+
+
 
 	read_data_from_file(st);
 
