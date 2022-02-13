@@ -211,8 +211,8 @@ void save_data_to_file(struct s_StudentInfo tmp[MAX_STUDENTS])
 	// strcpy(st[2].firstName,"Ali");
 	// strcpy(st[2].lastName,"rahimi");
 	// st[2].avr=19;
-
-	if ((fptr = fopen(FILE_NAME, "wb")) == NULL)
+	fptr = fopen(FILE_NAME, "wb");
+	if (fptr == NULL)
 	{
 		printf("Error! opening file");
 	}
@@ -231,8 +231,9 @@ void save_data_to_file(struct s_StudentInfo tmp[MAX_STUDENTS])
 void read_data_from_file(struct s_StudentInfo tmp[MAX_STUDENTS])
 {
 	FILE *fptr;
-
-	if ((fptr = fopen(FILE_NAME, "rb")) == NULL)
+	fptr = fopen(FILE_NAME, "wb");
+	fptr = fopen(FILE_NAME, "rb");
+	if (fptr == NULL)
 	{
 		printf("Error! opening file");
 	}
